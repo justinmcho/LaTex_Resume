@@ -1,0 +1,165 @@
+%-------------------------
+% Resume in Latex
+% Author : Amlaan Bhoi
+% Adapted from: Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage[charter]{mathdesign} % Bitstream Charter
+% \usepackage{newpxtext,newpxmath} % Palatino
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\evensidemargin}{-0.50in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+  \small \textbf{\href{abhoi.github.io}{\huge Barney Stinson}} \\  \href{mailto:abhoi3@uic.edu}{\color{blue}\underline{bstinson@himym.com}} $\vert$
+  877-987-6401 $\vert$
+  \small 240 W. 55 St. New York, NY (Mclaren's Pub)
+\end{center}
+
+%-----------EDUCATION-----------------
+\shorterSection{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Magicians Institute of Teaneck}{Cambridge, MA}
+      {Master of Magic; GPA:4.0}{1994-1998}{
+      \resumeItemNoBullet{Relevant Coursework}{Advanced Magic 101, UGBA 10, The Art of Seduction}
+    }
+    %   \resumeItemNoBullet{Relevant Coursework}{Analysis \& Design of Algorithms, Data Structures using C, Operating Systems, Pattern Recognition}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\shorterSection{Skills}
+  \resumeSubHeadingListStart
+  \small
+    \item{
+     \textbf{Languages}{: English, Korean, French} \\
+     \hfill
+    
+     \textbf{Technologies}{: Knowledge of basic web development, HTML, Graphic Design} \\
+     \textbf{Abilities}{: Business administration, Sales, Web Design, Document Signing}
+     \hfill
+    }
+    \vspace{-5pt}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\shorterSection{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Goliath National Bank}{New York, NY}
+      {P.L.E.A.S.E}{May 2005 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Currently working under the title of PLEASE, which stands for Provide Legal Exculpation and Sign Everything}
+        \resumeItem{}
+          {Sole purpose is to sign all documents and get the company out of sticky legal situations}
+        \resumeItem{}
+            {Frequently has to take international business meetings with overseas clients}
+        \resumeItem{}
+        {Day to day tasks include taking "conference call" meetings on the roof with Marshall Ericksen or devising novel ways to seduce women instead of working}
+      \resumeItemListEnd
+
+%-----------Addtional Experience & Achievements-----------------
+\shorterSection{Additional Experience \& Achievements}
+  \resumeSubHeadingListStart
+  \small
+    \item{2 time regional laser tag champion}
+    \vspace{-5pt}
+    \item{Author and originator of The Playbook, a book of plays to run on unsuspecting women for seduction purposes}
+    \vspace{-5pt}
+    \item{Also wrote The Bro Code, Bro on the Go, and Bro Code for Parents: What to Expect When You're Awesome}
+    \vspace{-5pt}
+    \item{Successful graduate of MIT, or the Magicians Institute of Teaneck - a frequent practicioner of magic tricks}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\shorterSection{Extracurriculars and Hobbies}
+  \resumeSubHeadingListStart
+  \small
+    \item{Facing off against children in laser tag}
+    \vspace{-5pt}
+    \item{Writes a blog that comments on everything from pop culture to philosphical values}
+    \vspace{-5pt}
+    \item{Spends the majority of time devising strategies to seduce women that are somewhat successful}
+    \vspace{-5pt}
+    \item{Suit enthusiast, appreciates the finer things in life}
+    \vspace{-5pt}
+    \item{Enjoys frequently taking on challenges/bets that were never proposed in the first place}
+    \item{Magician Extraordinaire, frequently enjoys pulling off dangerous tricks much to the regret of his friends}
+  \resumeSubHeadingListEnd
+\end{document}
