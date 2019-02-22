@@ -9,10 +9,6 @@ INFO 98 Project 1
 
 This repo includes the resumes of the following people:
 
-###### EXAMPLE: Leslie Knope (DELETE ME BEFORE SUBMITTING)
-* I am currently the Deputy Director of the Parks and Recreation Department of Pawnee, Indiana. In this position, I successfully turned a dangerous pit into a beautiful community park called the Pawnee Commons. I absolutely love my job! I believe that the three most important things in life are friends, waffles, and work... or I mean, waffles, friends, and work. I am just an example of what you need to do, so please delete me before turning your project in.
-* Jobs interested in: City Councilwoman, Midwest Regional Director of the National Parks Service, Governor of Indiana
-
 ###### [Justin Cho]
 * I am currently a freshman at UC Berkeley, focusing on social entrepreneurship. Throughout my career, I worked on Konation, a non-profit company that aims to give back to the community. By working as the founder of Konation, I was able to work very closely with my community. Other than giving back to my community, I love singing, eating good food, and hanging out with my friends.
 * Jobs interested in: [Singer, CEO, Volleyball coach]
